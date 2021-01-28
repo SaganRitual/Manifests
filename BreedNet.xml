@@ -1,0 +1,5 @@
+<manifest>
+<remote name="sagan" fetch="https://github.com/SaganRitual"/>
+<default revision="refs/heads/main" remote="sagan" sync-j="4"/>
+<project name="Genome" remote="sagan" path="Genome"/>
+</manifest>
