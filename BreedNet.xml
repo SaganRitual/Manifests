@@ -2,4 +2,6 @@
 <remote name="sagan" fetch="https://github.com/SaganRitual"/>
 <default revision="refs/heads/main" remote="sagan" sync-j="4"/>
 <project name="Genome" remote="sagan" path="Genome"/>
+<project name="HotNet" remote="sagan" path="HotNet"/>
+<project name="BreedNet" remote="sagan" path="BreedNet"/>
 </manifest>
