@@ -1,14 +1,7 @@
 <manifest>
 <remote name="sagan" fetch="https://github.com/SaganRitual"/>
 <default revision="refs/heads/main" remote="sagan" sync-j="4"/>
-<project name="Genome" remote="sagan" path="Genome">
-    <copyfile src="Genome/Genome.swift" dest="Genome.swift"/>
-</project>
-<project name="HotNet" remote="sagan" path="HotNet">
-    <copyfile src="HotNet/HotNetBnn.swift" dest="HotNetBnn.swift"/>
-    <copyfile src="HotNet/HotLayerBnn.swift" dest="HotLayerBnn.swift"/>
-</project>
-<project name="BreedNet" remote="sagan" path="BreedNet">
-    <copyfile src="BreedNet/main.swift" dest="main.swift"/>
-</project>
+<project name="Genome" remote="sagan" path="Genome"/>
+<project name="HotNet" remote="sagan" path="HotNet"/>
+<project name="BreedNet" remote="sagan" path="."/>
 </manifest>
